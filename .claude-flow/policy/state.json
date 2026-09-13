@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "mode": "legacy",
+  "rules": [],
+  "budgets": [],
+  "usage": [],
+  "approvals": [],
+  "receipts": [
+    {
+      "payload": {
+        "receiptId": "sha256:a9ad9956036adea09179bf3ab106f629ccc02137a9c4981f4f32afae23339064",
+        "previousReceiptHash": null,
+        "sequence": 0,
+        "issuedAt": 1789297480643,
+        "request": {
+          "identity": {
+            "id": "legacy-cli",
+            "type": "legacy"
+          },
+          "action": {
+            "type": "mcp.tool.call",
+            "resource": "hooks_post-command",
+            "tool": "hooks_post-command",
+            "server": "ruflo",
+            "network": false,
+            "destructive": false
+          },
+          "context": {
+            "metadata": {
+              "inputDigest": "sha256:e3da642f226228cdd426115f95babf8d304872e54bd2c60875ad4c758d76c627"
+            },
+            "now": 1789297480643
+          },
+          "requestId": "2915d838-5908-42ac-9076-063688f23f06"
+        },
+        "decision": {
+          "requestId": "2915d838-5908-42ac-9076-063688f23f06",
+          "outcome": "allowed",
+          "enforcedOutcome": "allowed",
+          "mode": "legacy",
+          "reason": "legacy-default-allow",
+          "matchedRules": [],
+          "obligations": []
+        },
+        "policyHash": "sha256:00b63b2f746eb8b9095bbd5e1dbae4ddd74fd92a6740b72f59f4069fbfda4737"
+      },
+      "hash": "sha256:487414daeb538bd388e1bfbc7e04ddb21dbd5001f1ccc8a5be708c89efc91915"
+    },
+    {
+      "payload": {
+        "receiptId": "sha256:3f62cc5492308964b6d27c65a835660baab23fe26e17bc2e007a3da5fad23337",
+        "previousReceiptHash": "sha256:487414daeb538bd388e1bfbc7e04ddb21dbd5001f1ccc8a5be708c89efc91915",
+        "sequence": 1,
+        "issuedAt": 1789297592649,
+        "request": {
+          "identity": {
+            "id": "legacy-cli",
+            "type": "legacy"
+          },
+          "action": {
+            "type": "mcp.tool.call",
+            "resource": "hooks_post-command",
+            "tool": "hooks_post-command",
+            "server": "ruflo",
+            "network": false,
+            "destructive": false
+          },
+          "context": {
+            "metadata": {
+              "inputDigest": "sha256:bf1ac030ab359f5220086fccb1daa8bdfb07da38ca027481151a4c0f9e567aa0"
+            },
+            "now": 1789297592649
+          },
+          "requestId": "07c42199-eb2b-44cb-9930-2e68c6c2f164"
+        },
+        "decision": {
+          "requestId": "07c42199-eb2b-44cb-9930-2e68c6c2f164",
+          "outcome": "allowed",
+          "enforcedOutcome": "allowed",
+          "mode": "legacy",
+          "reason": "legacy-default-allow",
+          "matchedRules": [],
+          "obligations": []
+        },
+        "policyHash": "sha256:00b63b2f746eb8b9095bbd5e1dbae4ddd74fd92a6740b72f59f4069fbfda4737"
+      },
+      "hash": "sha256:367701b2f2d6eceeacbba2a365377c89ac2f7627a4fc2e92c5785db46e09760b"
+    },
+    {
+      "payload": {
+        "receiptId": "sha256:4f726a022479a69e2519208e468ed43f4592aaa20f792132761e1a4b7e5be857",
+        "previousReceiptHash": "sha256:367701b2f2d6eceeacbba2a365377c89ac2f7627a4fc2e92c5785db46e09760b",
+        "sequence": 2,
+        "issuedAt": 1789297605352,
+        "request": {
+          "identity": {
+            "id": "legacy-cli",
+            "type": "legacy"
+          },
+          "action": {
+            "type": "mcp.tool.call",
+            "resource": "hooks_post-command",
+            "tool": "hooks_post-command",
+            "server": "ruflo",
+            "network": false,
+            "destructive": false
+          },
+          "context": {
+            "metadata": {
+              "inputDigest": "sha256:339c32f2958acf9b84af080ee4d093e05d543ca6bf0c3a15bb19b98f49bd2066"
+            },
+            "now": 1789297605352
+          },
+          "requestId": "31d12263-7232-4cf6-9ace-d2d2be7cf0d9"
+        },
+        "decision": {
+          "requestId": "31d12263-7232-4cf6-9ace-d2d2be7cf0d9",
+          "outcome": "allowed",
+          "enforcedOutcome": "allowed",
+          "mode": "legacy",
+          "reason": "legacy-default-allow",
+          "matchedRules": [],
+          "obligations": []
+        },
+        "policyHash": "sha256:00b63b2f746eb8b9095bbd5e1dbae4ddd74fd92a6740b72f59f4069fbfda4737"
+      },
+      "hash": "sha256:6658b101c781663c44dce1a7e2a8d5e8b9c47e78b36c1ae6388bcca17eb9d0d9"
+    },
+    {
+      "payload": {
+        "receiptId": "sha256:35c27a529c5da7c4fb3a37c831f61c117e612734aedfb2bc032ea811824f72b9",
+        "previousReceiptHash": "sha256:6658b101c781663c44dce1a7e2a8d5e8b9c47e78b36c1ae6388bcca17eb9d0d9",
+        "sequence": 3,
+        "issuedAt": 1789297609435,
+        "request": {
+          "identity": {
+            "id": "legacy-cli",
+            "type": "legacy"
+          },
+          "action": {
+            "type": "mcp.tool.call",
+            "resource": "hooks_session-end",
+            "tool": "hooks_session-end",
+            "server": "ruflo",
+            "network": false,
+            "destructive": false
+          },
+          "context": {
+            "metadata": {
+              "inputDigest": "sha256:8f439a8ff3a500e4e3396d2939f17897b705c1fb0b0d1ef84890b093a1eaffca"
+            },
+            "now": 1789297609435
+          },
+          "requestId": "40727181-f780-40ad-9d45-e8b8381aab81"
+        },
+        "decision": {
+          "requestId": "40727181-f780-40ad-9d45-e8b8381aab81",
+          "outcome": "allowed",
+          "enforcedOutcome": "allowed",
+          "mode": "legacy",
+          "reason": "legacy-default-allow",
+          "matchedRules": [],
+          "obligations": []
+        },
+        "policyHash": "sha256:00b63b2f746eb8b9095bbd5e1dbae4ddd74fd92a6740b72f59f4069fbfda4737"
+      },
+      "hash": "sha256:2f815bfcc4505fd0ec7cc1d2ee0bd46f810ba9e0e96e3e7d852fd946782ea3a4"
+    }
+  ],
+  "migratedAt": 1789297480642,
+  "migratedFrom": "pre-ADR-324; capabilities=none-detected"
+}
