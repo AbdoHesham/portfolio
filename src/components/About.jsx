@@ -107,20 +107,20 @@ const About = () => {
             <div className="space-y-4 sm:space-y-5 relative z-10">
               <h3 className="text-xs font-mono uppercase tracking-widest text-[#00f0ff] font-bold">Cast & Background</h3>
               <p className="text-base sm:text-lg md:text-xl font-medium text-white/90 leading-relaxed">
-                I am <span className="text-white font-bold drop-shadow">Sanjit</span>, a Full Stack Developer / Engineer focused on building scalable applications, backend systems, and AI-powered solutions.
+                I am <span className="text-white font-bold drop-shadow">Abdelrahman Hesham</span>, a Senior Front-End Engineer based in Fayoum, Egypt, currently leading frontend development for enterprise ERP and HR applications at Microtec.
               </p>
               <p className="text-xs sm:text-sm md:text-base text-white/60 font-light leading-relaxed">
-                My experience spans full-stack development, RESTful APIs, backend services, databases, AI/ML, and modern application architecture. I work with Python, FastAPI, Node.js, Nest.js, React, Angular, PostgreSQL, MongoDB, and modern AI tools and frameworks. I enjoy solving complex problems and turning ideas into practical, reliable software.
+                I have delivered 10+ production applications across logistics, healthcare, real estate, and AI-powered SaaS. I specialize in Angular and TypeScript, translate Figma and PSD designs into responsive interfaces, integrate RESTful APIs, and manage state with RxJS and NgRx. I own frontend architecture, modernize legacy AngularJS systems, and mentor developers through code reviews.
               </p>
             </div>
             
             <div className="pt-6 sm:pt-8 flex flex-wrap gap-1.5 sm:gap-2 relative z-10">
-              <span className="px-3 sm:px-3.5 py-1 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Full Stack Engineer</span>
-              <span className="px-3 sm:px-3.5 py-1 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Backend Development</span>
+              <span className="px-3 sm:px-3.5 py-1 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Angular Engineering</span>
+              <span className="px-3 sm:px-3.5 py-1 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Frontend Architecture</span>
               <span className="px-3 sm:px-3.5 py-1 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">REST APIs</span>
-              <span className="px-3 sm:px-3.5 py-1 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Generative AI</span>
-              <span className="px-3 sm:px-3.5 py-1 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Database Architecture</span>
-              <span className="px-3 sm:px-3.5 py-1 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">DSA & OOP</span>
+              <span className="px-3 sm:px-3.5 py-1 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">Technical Mentoring</span>
+              <span className="px-3 sm:px-3.5 py-1 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">State Management</span>
+              <span className="px-3 sm:px-3.5 py-1 sm:py-1.5 rounded bg-white/5 border border-white/10 text-[11px] sm:text-xs font-mono text-white/80">ERP Migration</span>
             </div>
           </div>
 
@@ -144,43 +144,16 @@ const About = () => {
             <div className="space-y-4 relative z-10">
               <h3 className="text-xs font-mono uppercase tracking-widest text-[#00f0ff] font-bold">Education & Credentials</h3>
               <ul className="space-y-3 text-xs md:text-sm text-white/80 font-light">
-                <li className="flex items-start gap-2 sm:gap-2.5">
-                  <span className="text-[#00f0ff] font-bold">&#8250;</span>
-                  <div>
-                    <span className="text-white font-semibold">Lovely Professional University</span> — BCA (2023 – 2026)
-                    <div className="text-white/50 text-[10px] sm:text-[11px] font-mono">Punjab | CGPA: 8.10</div>
-                  </div>
-                </li>
-                <li className="flex items-start gap-2 sm:gap-2.5">
-                  <span className="text-[#00f0ff] font-bold">&#8250;</span>
-                  <div>
-                    <span className="text-white font-semibold">K.V Masjid Moth Delhi</span> — Senior Secondary CBSE (2023)
-                    <div className="text-white/50 text-[10px] sm:text-[11px] font-mono">Delhi | Percentage: 63.4%</div>
-                  </div>
-                </li>
-                <li className="flex items-start gap-2 sm:gap-2.5 pt-1 border-t border-white/10">
-                  <span className="text-[#00f0ff] font-bold">&#8250;</span>
-                  <div>
-                    <strong className="text-white">Oracle Certified Foundations Associate</strong> — Agentic AI, Oracle University (Jul 2026)
-                  </div>
-                </li>
-                <li className="flex items-start gap-2 sm:gap-2.5">
-                  <span className="text-[#00f0ff] font-bold">&#8250;</span>
-                  <div>
-                    <strong className="text-white">Binary Blitz Hackathon</strong> — Coding Ninjas, LPU (Mar 2024)
-                  </div>
-                </li>
-                <li className="flex items-start gap-2 sm:gap-2.5">
-                  <span className="text-[#00f0ff] font-bold">&#8250;</span>
-                  <div>
-                    <strong className="text-white">Responsive Web Designing</strong> — freeCodeCamp.org (Feb 2024)
-                  </div>
-                </li>
+                <li><strong className="text-white">Cairo University</strong><div>Computer Software Engineering Diploma | Oct 2021 - Jun 2022</div></li>
+                <li><strong className="text-white">Information Technology Institute (ITI)</strong><div>.NET Full Stack Track | Sep 2020 - Jan 2021</div></li>
+                <li><strong className="text-white">Fayoum University</strong><div>Bachelor of Arts | Sep 2013 - Jun 2017</div></li>
+                <li><strong className="text-white">Udemy</strong><div>The Complete Angular Course: Beginner to Advanced | 2022</div></li>
+                <li><strong className="text-white">Senior Steps</strong><div>Full Stack Development Diploma | May 2020</div></li>
               </ul>
             </div>
             
             <div className="pt-4 font-mono text-xs text-white/40 relative z-10">
-              // ACADEMIC & CERTIFIED CREDENTIALS
+              Arabic: Native | English: Professional Working Proficiency
             </div>
           </div>
 
@@ -199,11 +172,11 @@ const About = () => {
 
             <div className="space-y-2 text-left relative z-10">
               <h3 className="text-xs font-mono uppercase tracking-widest text-[#00f0ff] font-bold">Production Tech Stack</h3>
-              <p className="text-sm sm:text-base md:text-lg font-semibold text-white">Full-stack, AI integration, and database architectures</p>
+              <p className="text-sm sm:text-base md:text-lg font-semibold text-white">Enterprise Angular applications, reusable components, and responsive interfaces</p>
             </div>
             
             <div className="flex flex-wrap items-center gap-2 sm:gap-3 relative z-10">
-              {['Python', 'FastAPI', 'Node.js', 'Nest.js', 'React', 'Angular 17', 'PostgreSQL', 'MySQL', 'Docker', 'TypeScript', 'MongoDB'].map((tech, idx) => (
+              {['Angular', 'TypeScript', 'RxJS', 'NgRx', 'Ionic', 'SCSS', 'Angular Material', 'Tailwind CSS', 'PrimeNG', 'Nx'].map((tech, idx) => (
                 <span
                   key={idx}
                   className="px-3 sm:px-4 py-1.5 sm:py-2 rounded bg-white/[0.04] border border-white/10 text-[11px] sm:text-xs font-mono uppercase tracking-wider text-white shadow-inner hover:bg-[#00f0ff]/20 hover:border-[#00f0ff]/40 hover:scale-105 transition-all"

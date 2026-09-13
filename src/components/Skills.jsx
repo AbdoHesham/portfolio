@@ -5,42 +5,85 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const skillCategories = [
-  { 
-    title: 'Languages', 
-    desc: 'Core programming languages for algorithmic problem solving, high-throughput backend services, and modern web applications.', 
-    tag: 'LANGUAGES',
-    skills: ['JavaScript', 'TypeScript', 'Python', 'Java', 'C++'] 
+  {
+    "title": "Languages",
+    "desc": "Languages and markup for maintainable, responsive web applications.",
+    "tag": "LANGUAGES",
+    "skills": [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "HTML5",
+      "CSS3",
+      "SCSS/Sass",
+      "JSON"
+    ]
   },
-  { 
-    title: 'Backend & Frameworks', 
-    desc: 'Architecting high-performance backend services, asynchronous endpoints, and resilient RESTful API architectures.', 
-    tag: 'BACKEND & APIS',
-    skills: ['Node.js', 'Nest.js', 'Express.js', 'FastAPI', 'RESTful API Design & Integration'] 
+  {
+    "title": "Frameworks & State",
+    "desc": "Angular applications with reactive data flows and predictable state.",
+    "tag": "FRAMEWORKS",
+    "skills": [
+      "Angular (8-17)",
+      "AngularJS",
+      "RxJS",
+      "NgRx",
+      "Ionic",
+      "jQuery"
+    ]
   },
-  { 
-    title: 'Frontend & Frameworks', 
-    desc: 'Developing responsive client applications, modular component architectures, and modern cross-platform mobile apps.', 
-    tag: 'FRONTEND & MOBILE',
-    skills: ['React', 'Angular 17', 'Ionic', 'HTML5', 'CSS3', 'Bootstrap', 'Tailwind CSS', 'shadcn/ui'] 
+  {
+    "title": "UI & Design",
+    "desc": "Translating Figma and PSD designs into responsive, pixel-accurate interfaces.",
+    "tag": "UI & DESIGN",
+    "skills": [
+      "Angular Material",
+      "Tailwind CSS",
+      "Bootstrap",
+      "PrimeNG",
+      "Figma",
+      "Adobe XD"
+    ]
   },
-  { 
-    title: 'AI / ML & RAG', 
-    desc: 'Engineering RAG pipelines, pgvector vector search, document chunking & reranking, deep learning Bi-GRU NLP, and Agentic AI.', 
-    tag: 'AI / ML & RAG',
-    skills: ['RAG', 'Vector Embeddings', 'pgvector', 'Ollama', 'OpenAI API', 'Google Gemini API', 'TensorFlow/Keras', 'Bidirectional GRU', 'Prompt Design', 'Agentic AI'] 
+  {
+    "title": "Architecture",
+    "desc": "Reusable components, API integration, and scalable frontend architecture.",
+    "tag": "ARCHITECTURE",
+    "skills": [
+      "RESTful APIs",
+      "State Management",
+      "Nx Monorepos",
+      "Reusable Components",
+      "Performance Optimization",
+      "Cross-Browser Compatibility"
+    ]
   },
-  { 
-    title: 'Databases & Security', 
-    desc: 'Database and data modeling, schema design, and enterprise-grade authentication with protected API endpoints.', 
-    tag: 'DATABASES & SECURITY',
-    skills: ['PostgreSQL', 'MySQL', 'MongoDB', 'SQL', 'NoSQL', 'GraphQL', 'JWT', 'OAuth2 Password Bearer', 'bcrypt', 'httpOnly Cookies'] 
+  {
+    "title": "Enterprise Delivery",
+    "desc": "Modernizing ERP applications and coordinating features through release.",
+    "tag": "DELIVERY",
+    "skills": [
+      "ERP Applications",
+      "AngularJS Migration",
+      "Agile/Scrum",
+      "UAT",
+      "Release Coordination"
+    ]
   },
-  { 
-    title: 'DevOps & CS Core', 
-    desc: 'Containerized deployment workflows, CI/CD pipelines, version control, and rigorous algorithmic and design pattern foundations.', 
-    tag: 'DEVOPS & CS FUNDAMENTALS',
-    skills: ['Docker', 'CI/CD (GitHub Actions)', 'Git', 'GitHub', 'Alembic', 'Swagger/OpenAPI', 'Uvicorn', 'Render', 'Data Structures & Algorithms', 'OOP & Design Patterns'] 
-  },
+  {
+    "title": "Tools & Leadership",
+    "desc": "Guiding frontend teams through clear communication and code reviews.",
+    "tag": "TEAM & TOOLS",
+    "skills": [
+      "Git",
+      "Azure DevOps",
+      "Nx",
+      "Code Reviews",
+      "Technical Mentoring",
+      "Team Leadership",
+      "Problem-Solving",
+      "Time Management"
+    ]
+  }
 ];
 
 const Skills = () => {

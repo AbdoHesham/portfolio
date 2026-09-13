@@ -15,7 +15,7 @@ const Hero = () => {
   const developerRoles = [
     'THINK DEEPLY // BUILD PRECISELY',
     'SOLVE THE HARD PROBLEMS',
-    'ENGINEERED FOR WHAT’S NEXT',
+    'ENGINEERED FOR WHATâ€™S NEXT',
     'ALWAYS BUILDING // ALWAYS LEARNING'
   ];
 
@@ -179,13 +179,13 @@ const Hero = () => {
         <div className="hero-anim-item flex items-center justify-between w-full">
           <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 rounded bg-black/80 backdrop-blur-2xl border border-[#00f0ff]/40 text-[10px] sm:text-xs font-mono uppercase tracking-wider sm:tracking-widest text-white shadow-2xl">
             <span className="w-2 h-2 rounded-full bg-[#00f0ff] animate-ping shrink-0"></span>
-            <span className="text-[#00f0ff] font-bold tracking-wider">FULL-STACK ENGINEERING</span>
+            <span className="text-[#00f0ff] font-bold tracking-wider">SENIOR FRONTEND ENGINEERING</span>
             <span className="text-white/40 hidden sm:inline">|</span>
-            <span className="text-white/80 hidden sm:inline">FRONTEND • BACKEND • SYSTEMS</span>
+            <span className="text-white/80 hidden sm:inline">ANGULAR â€¢ TYPESCRIPT â€¢ RXJS</span>
           </div>
           <div className="hidden md:flex items-center gap-2 text-xs font-mono text-white/50 tracking-wider">
-            <span className="px-2 py-0.5 border border-white/20 rounded bg-black/40">Bachelor of Computer Applications</span>
-            <span className="px-2 py-0.5 border border-white/20 rounded bg-black/40">2023 – 2026</span>
+            <span className="px-2 py-0.5 border border-white/20 rounded bg-black/40">5+ Years of Experience</span>
+            <span className="px-2 py-0.5 border border-white/20 rounded bg-black/40">10+ Production Apps</span>
           </div>
         </div>
 
@@ -194,23 +194,23 @@ const Hero = () => {
           
           {/* Left Side: Developer Story & Description */}
           <div className="lg:col-span-5 flex flex-col items-start space-y-4 sm:space-y-5 text-left">
-            <h1 className="hero-anim-item text-4xl sm:text-6xl md:text-7xl font-black tracking-tighter text-white leading-[0.95] drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)] break-words">
-              SANJIT <br />
+            <h1 className="hero-anim-item text-4xl sm:text-5xl md:text-5xl font-black tracking-tighter text-white leading-[0.95] drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)] break-words">
+              ABDELRAHMAN <br />HESHAM <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00f0ff] via-[#38bdf8] to-[#0284c7] drop-shadow-[0_0_35px_rgba(0,240,255,0.6)]">
-                FULL-STACK Developer / Engineer
+                Senior Front-End Engineer
               </span>
             </h1>
 
             <div className="hero-anim-item flex flex-wrap items-center gap-1.5 sm:gap-2 text-[11px] sm:text-xs font-mono text-[#00f0ff] font-bold">
-              <span className="px-2 py-0.5 bg-[#00f0ff]/10 border border-[#00f0ff]/30 rounded text-[#00f0ff]">AI & ML • BACKEND </span>
-              <span className="text-white/40">•</span>
-              <span>REST APIs • DATABASES</span>
-              <span className="text-white/40">•</span>
-              <span className="text-white/70">React • Node.js • FastAPI • PostgreSQL • MongoDB</span>
+              <span className="px-2 py-0.5 bg-[#00f0ff]/10 border border-[#00f0ff]/30 rounded text-[#00f0ff]">ANGULAR â€¢ TYPESCRIPT</span>
+              <span className="text-white/40">â€¢</span>
+              <span>RxJS â€¢ NgRx</span>
+              <span className="text-white/40">â€¢</span>
+              <span className="text-white/70">ERP â€¢ HR â€¢ AI-powered SaaS</span>
             </div>
 
             <p className="hero-anim-item text-xs sm:text-sm md:text-base text-white/80 font-light leading-relaxed max-w-md drop-shadow">
-              I build full-stack applications, scalable backend services, and AI-powered systems — combining modern frontend development with REST APIs, databases, authentication, and machine learning.
+              I build enterprise Angular applications, lead frontend architecture, and mentor developers. With 5+ years of experience, I turn complex requirements into responsive, reliable interfaces.
             </p>
 
             {/* Action Button Set */}
@@ -283,7 +283,7 @@ const Hero = () => {
                       {/* Character Transparent PNG */}
                       <img 
                         src={characterImg} 
-                        alt="Sanjit - Full Stack Developer" 
+                        alt="Developer illustration"
                         className="relative z-10 max-h-full w-auto object-contain object-bottom drop-shadow-[0_8px_25px_rgba(0,240,255,0.35)] filter transition-transform duration-500 group-hover:scale-105 pointer-events-none select-none"
                       />
                     </div>
@@ -293,10 +293,10 @@ const Hero = () => {
                   <div className="relative z-10 text-center space-y-2 pt-1">
                     <div className="space-y-0.5">
                       <h4 className="text-lg md:text-xl font-black text-white tracking-widest uppercase drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
-                        SANJIT
+                        ABDELRAHMAN
                       </h4>
                       <p className="text-[9px] sm:text-[10px] font-mono uppercase tracking-widest text-[#00f0ff] font-bold">
-                        FULL STACK DEVELOPER / ENGINEER
+                        SENIOR FRONT-END ENGINEER
                       </p>
                     </div>
 
@@ -318,12 +318,12 @@ const Hero = () => {
             <div className="p-4 sm:p-5 bg-black/80 backdrop-blur-2xl border border-white/15 rounded-xl shadow-2xl w-full sm:max-w-xs">
               <h3 className="text-xs font-mono uppercase tracking-widest text-[#00f0ff] font-bold mb-2">CORE CAPABILITIES</h3>
               <p className="text-xs text-white/80 leading-relaxed font-light whitespace-pre-line">
-                Full-Stack Development
-Backend & REST APIs
-AI / ML Integration
-Database & Vector Search
-Authentication & Security
-Docker
+                Angular & TypeScript
+RxJS & NgRx
+Frontend Architecture
+ERP Modernization
+Responsive UI Development
+Technical Mentoring
               </p>
             </div>
           </div>
@@ -351,7 +351,7 @@ Docker
       {/* --- NETFLIX-THEMED DEVELOPER NAVBAR --- */}
       <header className="absolute top-0 inset-x-0 z-50 w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-12 py-5 sm:py-6 flex items-center justify-between pointer-events-auto">
         <a href="#home" className="text-2xl font-black text-[#00f0ff] tracking-tighter flex items-center gap-2 drop-shadow-[0_2px_15px_rgba(0,240,255,0.8)]">
-          SANJIT<span className="w-1.5 h-1.5 rounded-full bg-white inline-block"></span>
+          ABDELRAHMAN<span className="w-1.5 h-1.5 rounded-full bg-white inline-block"></span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-xs font-mono uppercase tracking-widest text-white/80">
           <a href="#home" className="hover:text-[#00f0ff] transition-colors">Home</a>
@@ -411,10 +411,10 @@ Docker
               ))}
             </nav>
             <div className="pt-3 border-t border-white/10 flex items-center justify-between text-[10px] font-mono text-white/40">
-              <span>SANJIT // PORTFOLIO</span>
+              <span>ABDELRAHMAN // PORTFOLIO</span>
               <span className="text-[#00f0ff] flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#00f0ff] animate-ping"></span>
-                AVAILABLE
+                LETâ€™S CONNECT
               </span>
             </div>
           </div>

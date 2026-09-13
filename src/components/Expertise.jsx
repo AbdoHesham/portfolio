@@ -6,32 +6,32 @@ gsap.registerPlugin(ScrollTrigger);
 
 const expertiseData = [
   {
-    number: "01",
-    title: "Frontend Engineering",
-    text: "Crafting responsive, high-performance interfaces with React, Angular 17, Ionic, modern TypeScript, Tailwind CSS, and shadcn/ui, backed by smooth GSAP interactions.",
-    tag: "UI & CLIENT DEVELOPMENT",
-    gradient: "from-[#04161d] via-[#091114] to-[#05090b]"
+    "number": "01",
+    "title": "Frontend Engineering",
+    "text": "Building responsive Angular and Ionic interfaces with TypeScript, Angular Material, Tailwind CSS, Bootstrap, and PrimeNG. Translating Figma and PSD designs into reusable components.",
+    "tag": "ANGULAR & UI",
+    "gradient": "from-[#04161d] via-[#091114] to-[#05090b]"
   },
   {
-    number: "02",
-    title: "Backend & RESTful APIs",
-    text: "Building secure and scalable backend services and REST APIs using Python, FastAPI, Node.js, Nest.js, and Express.js, with JWT/OAuth2 authentication and protected API endpoints.",
-    tag: "API & BACKEND SERVICES",
-    gradient: "from-[#03141a] via-[#080f12] to-[#05080a]"
+    "number": "02",
+    "title": "State & API Integration",
+    "text": "Integrating RESTful APIs and managing application state with RxJS and NgRx across enterprise dashboards, logistics platforms, and AI-powered SaaS.",
+    "tag": "RXJS & NGRX",
+    "gradient": "from-[#04161d] via-[#091114] to-[#05090b]"
   },
   {
-    number: "03",
-    title: "AI / ML Engineering",
-    text: "Building AI-powered applications using NLP, deep learning, TensorFlow/Keras, Bidirectional GRU models, embeddings, semantic search, and modern AI APIs including OpenAI and Google Gemini.",
-    tag: "RAG & AGENTIC AI",
-    gradient: "from-[#051820] via-[#0a1215] to-[#060a0c]"
+    "number": "03",
+    "title": "Architecture & Migration",
+    "text": "Owning frontend architecture and coding standards for enterprise ERP and HR applications. Migrating legacy AngularJS systems to Angular for maintainability and scalability.",
+    "tag": "ENTERPRISE SYSTEMS",
+    "gradient": "from-[#04161d] via-[#091114] to-[#05090b]"
   },
   {
-    number: "04",
-    title: "DATA & INFRASTRUCTURE",
-    text: "Designing and working with PostgreSQL, MongoDB, MySQL and SQL/NoSQL systems, with Docker, GitHub Actions, Alembic migrations, and cloud deployment workflows.",
-    tag: "DATABASES & CLOUD",
-    gradient: "from-[#04151b] via-[#091013] to-[#05090a]"
+    "number": "04",
+    "title": "Technical Leadership",
+    "text": "Mentoring developers, reviewing code, and coordinating frontend priorities with Backend, QA, Business Analysts, and Product teams through sprint planning, UAT, and release.",
+    "tag": "TEAM & DELIVERY",
+    "gradient": "from-[#04161d] via-[#091114] to-[#05090b]"
   }
 ];
 
@@ -115,7 +115,7 @@ const Expertise = () => {
             </h2>
           </div>
           <p className="text-white/60 text-xs md:text-sm font-light leading-relaxed max-w-xs">
-            Building full-stack applications, reliable backend services, AI-powered solutions, and scalable data-driven systems.
+            Building enterprise Angular interfaces, modernizing legacy systems, and guiding frontend teams from requirements to release.
           </p>
         </div>
 

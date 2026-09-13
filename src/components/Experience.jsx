@@ -4,6 +4,81 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
+const experienceData = [
+  {
+    "company": "Microtec",
+    "role": "Senior Front-End Developer",
+    "dates": "Jul 2025 - Present",
+    "mode": "Hybrid | Full-Time",
+    "highlights": [
+      "Acting frontend lead for enterprise ERP and HR applications using Angular, TypeScript, and RxJS.",
+      "Own frontend architecture, coding standards, technical decisions, and implementation quality.",
+      "Mentor developers through guidance and code reviews; coordinate priorities, dependencies, and blockers.",
+      "Work with Backend, QA, Business Analysts, and Product teams from requirements through UAT and release."
+    ]
+  },
+  {
+    "company": "Widebot.ai",
+    "role": "Senior Front-End Engineer",
+    "dates": "Jul 2024 - Jul 2025",
+    "mode": "Hybrid | Full-Time",
+    "highlights": [
+      "Developed the Angular frontend of an AI-powered SaaS platform using the AQL large language model for MENA enterprises and governments.",
+      "Converted Figma and PSD designs into components, integrated RESTful APIs, and resolved critical UI issues."
+    ]
+  },
+  {
+    "company": "AHBS",
+    "role": "Senior Front-End Engineer",
+    "dates": "Jul 2023 - Jul 2024",
+    "mode": "Hybrid | Full-Time",
+    "highlights": [
+      "Built three Angular admin dashboards for healthcare and real estate clients, including Dot Care Plus and AWP Real Estate.",
+      "Led an AngularJS ERP migration to Angular 14 and implemented notifications and promo-code management."
+    ]
+  },
+  {
+    "company": "BetaHubs",
+    "role": "Senior Front-End Engineer",
+    "dates": "Oct 2022 - Oct 2023",
+    "mode": "Remote | Part-Time",
+    "highlights": [
+      "Delivered Next Driven, a POS application for restaurants, shops, and coffee shops, covering cashier and purchasing workflows.",
+      "Collaborated with backend teams on RESTful API design and integration."
+    ]
+  },
+  {
+    "company": "MCshippers",
+    "role": "Front-End Developer",
+    "dates": "Jan 2022 - Jul 2023",
+    "mode": "Remote | Full-Time",
+    "highlights": [
+      "Launched the MCshippers portal serving 1,000+ registered users and built its admin panel and ERP operations.",
+      "Delivered Round Hire, an employment and recruitment application, as the sole frontend contributor."
+    ]
+  },
+  {
+    "company": "HAWK Technology",
+    "role": "Front-End Developer",
+    "dates": "Feb 2021 - Aug 2021",
+    "mode": "Remote | Part-Time",
+    "highlights": [
+      "Built Legal House, a legal consultation portal for corporate and individual clients.",
+      "Redesigned the Education Faculty website for Fayoum University with a responsive layout."
+    ]
+  },
+  {
+    "company": "Freelance",
+    "role": "Front-End Developer",
+    "dates": "Feb 2020 - Jul 2024",
+    "mode": "Remote",
+    "highlights": [
+      "Delivered 4+ admin panels and mobile-companion applications for clients in Egypt and Turkey.",
+      "Projects included Hunter stock advisory admin, Synk admin, and the GETX Ionic market application with an Angular admin panel."
+    ]
+  }
+];
+
 const Experience = () => {
   const sectionRef = useRef(null);
   const cardRef = useRef(null);
@@ -60,7 +135,7 @@ const Experience = () => {
               <span className="w-1.5 h-1.5 rounded-full bg-[#00f0ff] animate-ping"></span>
               <span className="text-[#00f0ff] font-bold">02</span>
               <span className="text-white/40">|</span>
-              <span>INTERNSHIP EXPERIENCE</span>
+              <span>PROFESSIONAL EXPERIENCE</span>
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-5xl font-black text-white tracking-tight leading-tight break-words">
               ENGINEERING EXPERIENCE <br />
@@ -70,7 +145,7 @@ const Experience = () => {
             </h2>
           </div>
           <p className="text-white/60 text-xs md:text-sm font-light leading-relaxed max-w-xs">
-            Hands-on software engineering experience across frontend development, backend services, APIs, debugging, and collaborative Agile development.
+            5+ years delivering production Angular applications across enterprise software, AI-powered SaaS, healthcare, logistics, and real estate.
           </p>
         </div>
 
@@ -87,70 +162,23 @@ const Experience = () => {
             }}
           ></div>
 
-          <div className="relative z-10 space-y-6 sm:space-y-8">
-            {/* Header: Company, Role & Duration */}
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/10 pb-6">
-              <div>
-                <div className="inline-block text-[9px] sm:text-[10px] font-mono font-bold tracking-widest uppercase text-[#00f0ff] bg-[#00f0ff]/10 px-2.5 py-1 rounded border border-[#00f0ff]/20 mb-2">
-                  THEEDUCODE PLATFORM
+          <div className="relative z-10 space-y-10">
+            {experienceData.map((job) => (
+              <article key={job.company} className="border-b border-white/10 pb-8 last:border-0 last:pb-0">
+                <div className="flex flex-col sm:flex-row justify-between gap-3 mb-4">
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-black text-white">{job.company}</h3>
+                    <p className="text-sm text-[#00f0ff] mt-1">{job.role}</p>
+                  </div>
+                  <div className="text-xs font-mono text-white/60 sm:text-right">
+                    <p>{job.dates}</p><p className="mt-1">{job.mode}</p>
+                  </div>
                 </div>
-                <h3 className="text-xl sm:text-2xl md:text-4xl font-black text-white tracking-tight">
-                  Eduniketan Pvt. Ltd.
-                </h3>
-                <p className="text-xs sm:text-sm md:text-base text-[#00f0ff] font-mono font-medium mt-1">
-                  Junior Software Architect
-                </p>
-              </div>
-
-              <div className="flex flex-row sm:flex-col items-start sm:items-end justify-between sm:justify-start gap-1">
-                <span className="text-xs sm:text-sm font-mono text-white/90 bg-white/5 border border-white/10 px-3 sm:px-4 py-1.5 rounded-full">
-                  Nov 2025 – May 2026
-                </span>
-                <span className="text-[10px] sm:text-[11px] font-mono text-white/40 mt-1 sm:mt-1.5 tracking-wider">
-                  6 MONTHS DURATION
-                </span>
-              </div>
-            </div>
-
-            {/* Responsibilities & Achievements */}
-            <div className="space-y-4">
-              <h4 className="text-xs font-mono uppercase tracking-widest text-white/50">
-                // KEY RESPONSIBILITIES & PRODUCTION IMPACT
-              </h4>
-
-              <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base text-white/80 font-light leading-relaxed">
-                <li className="flex items-start gap-2.5 sm:gap-3.5">
-                  <span className="text-[#00f0ff] font-bold text-lg leading-none mt-0.5">&#8250;</span>
-                  <span>
-                    Contributed to the development of production software across frontend and backend workflows, working with <strong className="text-white font-medium">APIs, application logic, debugging, and reusable components</strong> for the TheEduCode platform.
-                  </span>
-                </li>
-                <li className="flex items-start gap-2.5 sm:gap-3.5">
-                  <span className="text-[#00f0ff] font-bold text-lg leading-none mt-0.5">&#8250;</span>
-                  <span>
-                    Worked on frontend interfaces while collaborating with developers and designers to integrate functionality, troubleshoot issues, and improve the overall application experience.
-                  </span>
-                </li>
-                <li className="flex items-start gap-2.5 sm:gap-3.5">
-                  <span className="text-[#00f0ff] font-bold text-lg leading-none mt-0.5">&#8250;</span>
-                  <span>
-                    Used Git for version control, participated in code reviews and Agile development, and contributed to technical documentation and maintainable code.
-                  </span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Tech Badges */}
-            <div className="pt-4 border-t border-white/10 flex flex-wrap items-center gap-2">
-              {['Python', 'Node.js', 'TypeScript', 'Git', 'Agile & Code Reviews', 'Component Architecture'].map((tag, idx) => (
-                <span
-                  key={idx}
-                  className="px-3 sm:px-3.5 py-1 sm:py-1.5 rounded bg-white/[0.04] border border-white/10 text-[11px] sm:text-xs font-mono text-white/80 group-hover:border-[#00f0ff]/30 transition-colors"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
+                <ul className="list-disc pl-5 space-y-2 text-sm text-white/80 leading-relaxed">
+                  {job.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}
+                </ul>
+              </article>
+            ))}
           </div>
         </div>
 

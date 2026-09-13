@@ -4,55 +4,75 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Authentic Project Data based on Sanjit's CV
+// Selected projects from Abdelrahman Hesham's CV
 const projectsData = [
   {
-    title: "AI Resume Checker & Optimizer (MERN)",
-    category: "Full-Stack & GenAI",
-    description: "Parses PDF resumes using Google Gemini with structured output & Zod validation to generate an ATS score (0-100), AI rewrite of weak bullets, diff comparisons, and ATS-friendly PDF export.",
-    tags: ["React 19", "Tailwind CSS v4", "Node.js", "Express.js", "MongoDB", "Gemini API", "Zod", "JWT"],
-    url: "https://ai-resume-checker-frontend-pawm.onrender.com",
-    episode: "01 / 06"
+    "title": "Widebot Platform",
+    "category": "AI-powered SaaS",
+    "description": "Angular frontend for an AQL LLM-powered platform serving enterprises and governments across MENA. Built pixel-accurate components and integrated RESTful APIs.",
+    "tags": [
+      "Angular",
+      "RxJS",
+      "TypeScript"
+    ],
+    "url": null,
+    "episode": "01 / 06"
   },
   {
-    title: "Sentix – AI Emotion Analysis",
-    category: "NLP & Deep Learning",
-    description: "NLP web application that classifies text into six emotion categories using a trained Bidirectional GRU deep learning model, with confidence scores, probability charts, and Render deployment.",
-    tags: ["Python", "FastAPI", "TensorFlow/Keras", "Bi-GRU", "NumPy", "Pydantic", "Render"],
-    url: "https://sentix-ai-emotion-analysis.onrender.com",
-    episode: "02 / 06"
+    "title": "Dot Care Plus Admin",
+    "category": "Healthcare",
+    "description": "Multi-provider application management portal with push notifications and promo-code management.",
+    "tags": [
+      "Angular",
+      "RxJS"
+    ],
+    "url": null,
+    "episode": "02 / 06"
   },
   {
-    title: "RAG Knowledge Assistant",
-    category: "RAG & Vector Search",
-    description: "AI-powered document Q&A system using RAG, configurable chunking (1200/180 overlap), 768-dim embeddings, PostgreSQL pgvector vector search, and reranking with source attribution.",
-    tags: ["Python", "FastAPI", "PostgreSQL", "pgvector", "Alembic", "Docker", "Ollama"],
-    url: "https://rag-knowledge-frontend.onrender.com",
-    episode: "03 / 06"
+    "title": "AWP Real Estate",
+    "category": "Real Estate",
+    "description": "Admin dashboard for managing real estate units and property listings.",
+    "tags": [
+      "Angular"
+    ],
+    "url": null,
+    "episode": "03 / 06"
   },
   {
-    title: "Learnify – AI-Powered Personalized Learning",
-    category: "EdTech & GenAI",
-    description: "Full-stack AI learning platform with React/TypeScript frontend and FastAPI backend, generating personalized study paths and quizzes via OpenAI API with JWT authentication.",
-    tags: ["React", "TypeScript", "FastAPI", "PostgreSQL", "OpenAI API", "JWT"],
-    url: "https://github.com/sanjit2005/Learnify",
-    episode: "04 / 06"
+    "title": "ERP Migration",
+    "category": "Enterprise Modernization",
+    "description": "Led the migration of a legacy AngularJS ERP system to Angular 14, improving maintainability and scalability.",
+    "tags": [
+      "Angular 14",
+      "TypeScript",
+      "AngularJS"
+    ],
+    "url": null,
+    "episode": "04 / 06"
   },
   {
-    title: "FANTA – AI Voice Assistant",
-    category: "Real-Time Audio & AI",
-    description: "Personal AI voice assistant with real-time two-way voice interaction, using LiveKit for low-latency audio streaming over WebSockets with STT + TTS command execution pipelines.",
-    tags: ["Python", "LiveKit", "SpeechRecognition", "WebSockets", "STT + TTS"],
-    url: "https://github.com/sanjit2005/fanta-1",
-    episode: "05 / 06"
+    "title": "Next Driven POS",
+    "category": "Retail & Hospitality",
+    "description": "Point-of-sale application for restaurants, shops, and coffee shops, covering purchasing and cashier operations.",
+    "tags": [
+      "Angular",
+      "TypeScript",
+      "RESTful APIs"
+    ],
+    "url": null,
+    "episode": "05 / 06"
   },
   {
-    title: "PiggyPlanet – Smart Savings Mobile App",
-    category: "Mobile & Gamification",
-    description: "Mobile savings app for kids (8-18) built with Ionic 7 and Angular 17, featuring goal tracking, custom Canvas scratch-card reward system, and parental-approval workflow.",
-    tags: ["Ionic 7", "Angular 17", "TypeScript", "Lottie-web", "Canvas"],
-    url: "https://github.com/sanjit2005/Piggyplanet",
-    episode: "06 / 06"
+    "title": "MCshippers",
+    "category": "Logistics",
+    "description": "Launched a portal serving 1,000+ registered users connecting shippers and carriers, plus an admin panel for platform and ERP operations.",
+    "tags": [
+      "Angular",
+      "NgRx"
+    ],
+    "url": "https://portal.mcshippers.com",
+    "episode": "06 / 06"
   }
 ];
 
@@ -293,8 +313,8 @@ const Projects = () => {
                   <span className="text-[10px] font-mono font-bold tracking-widest uppercase text-[#00f0ff] bg-[#00f0ff]/10 px-2.5 py-0.5 rounded border border-[#00f0ff]/20">
                     {project.episode}
                   </span>
-                  <a
-                    href={project.url || "#"}
+                  {project.url ? (<a
+ href={project.url || "#"}
                     target={project.url && project.url !== "#" ? "_blank" : undefined}
                     rel={project.url && project.url !== "#" ? "noopener noreferrer" : undefined}
                     onClick={(e) => {
@@ -305,11 +325,11 @@ const Projects = () => {
                     }}
                     className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-[#00f0ff]/10 hover:bg-[#00f0ff] text-[#00f0ff] hover:text-black font-mono text-[9px] font-bold tracking-wider uppercase border border-[#00f0ff]/30 hover:border-[#00f0ff] shadow-[0_0_10px_rgba(0,240,255,0.1)] hover:shadow-[0_0_15px_rgba(0,240,255,0.5)] transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer z-20"
                   >
-                    CLICK ME
+                    VIEW SITE
                     <svg className="w-2.5 h-2.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                     </svg>
-                  </a>
+                  </a>) : (<span className="text-[9px] font-mono text-white/50 uppercase">Professional work</span>)}
                 </div>
 
                 {/* Middle Title & Description */}
@@ -374,8 +394,8 @@ const Projects = () => {
                 <span className="text-[10px] font-mono font-bold tracking-widest text-[#00f0ff] bg-[#00f0ff]/10 px-2 py-0.5 rounded">
                   {project.episode}
                 </span>
-                <a
-                  href={project.url || "#"}
+                {project.url ? (<a
+ href={project.url || "#"}
                   target={project.url && project.url !== "#" ? "_blank" : undefined}
                   rel={project.url && project.url !== "#" ? "noopener noreferrer" : undefined}
                   onClick={(e) => {
@@ -386,11 +406,11 @@ const Projects = () => {
                   }}
                   className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-[#00f0ff]/10 hover:bg-[#00f0ff] text-[#00f0ff] hover:text-black font-mono text-[9px] font-bold tracking-wider uppercase border border-[#00f0ff]/30 hover:border-[#00f0ff] shadow-[0_0_10px_rgba(0,240,255,0.1)] transition-all duration-300"
                 >
-                  CLICK ME
+                  VIEW SITE
                   <svg className="w-2.5 h-2.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
-                </a>
+                </a>) : (<span className="text-[9px] font-mono text-white/50 uppercase">Professional work</span>)}
               </div>
               <div className="space-y-1.5 my-auto py-1">
                 <div className="text-[10px] font-mono uppercase tracking-widest text-white/40">

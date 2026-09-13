@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
@@ -106,7 +106,7 @@ const Contact = () => {
           email: formData.email.trim(),
           reply_to: formData.email.trim(),
           message: formData.message.trim(),
-          to_email: 'thatsjustsanjeet@gmail.com'
+          to_email: 'abdo.hesham1095@gmail.com'
         },
         publicKey
       );
@@ -119,7 +119,7 @@ const Contact = () => {
       console.error('Email transmission error:', error);
       setStatus('error');
       setStatusMessage(
-        error?.text || 'Failed to send message. Please try again or reach out directly at thatsjustsanjeet@gmail.com.'
+        error?.text || 'Failed to send message. Please try again or reach out directly at abdo.hesham1095@gmail.com.'
       );
     }
   };
@@ -170,20 +170,20 @@ const Contact = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 pt-2">
               <div className="p-3.5 sm:p-4 rounded-xl bg-black/40 border border-white/10 flex flex-col gap-1 hover:border-[#00f0ff]/40 transition-colors">
                 <span className="text-[10px] font-mono text-[#00f0ff] uppercase tracking-widest">EMAIL SIGNAL</span>
-                <a href="mailto:thatsjustsanjeet@gmail.com" className="text-xs sm:text-sm text-white hover:text-[#00f0ff] font-mono truncate transition-colors">
-                  thatsjustsanjeet@gmail.com
+                <a href="mailto:abdo.hesham1095@gmail.com" className="text-xs sm:text-sm text-white hover:text-[#00f0ff] font-mono truncate transition-colors">
+                  abdo.hesham1095@gmail.com
                 </a>
               </div>
               <div className="p-3.5 sm:p-4 rounded-xl bg-black/40 border border-white/10 flex flex-col gap-1 hover:border-[#00f0ff]/40 transition-colors">
                 <span className="text-[10px] font-mono text-[#00f0ff] uppercase tracking-widest">DIRECT PHONE</span>
-                <a href="tel:8595588397" className="text-xs sm:text-sm text-white hover:text-[#00f0ff] font-mono transition-colors">
-                  +91 8595588397
+                <a href="tel:+201016552515" className="text-xs sm:text-sm text-white hover:text-[#00f0ff] font-mono transition-colors">
+                  +20 101 655 2515
                 </a>
               </div>
               <div className="p-3.5 sm:p-4 rounded-xl bg-black/40 border border-white/10 flex flex-col gap-1 hover:border-[#00f0ff]/40 transition-colors">
                 <span className="text-[10px] font-mono text-[#00f0ff] uppercase tracking-widest">BASE LOCATION</span>
                 <span className="text-xs sm:text-sm text-white/80 font-mono truncate">
-                  New Delhi, Delhi 110080
+                  Fayoum, Egypt
                 </span>
               </div>
             </div>

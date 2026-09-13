@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Footer = () => {
   return (
@@ -9,10 +8,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 sm:gap-8 pb-8 sm:pb-12 border-b border-white/10">
           <div className="space-y-1.5 sm:space-y-2">
             <div className="text-2xl font-black text-[#00f0ff] tracking-tighter flex items-center gap-2 drop-shadow-[0_2px_15px_rgba(0,240,255,0.8)]">
-              SANJIT<span className="w-1.5 h-1.5 rounded-full bg-white inline-block"></span>
+              ABDELRAHMAN<span className="w-1.5 h-1.5 rounded-full bg-white inline-block"></span>
             </div>
             <p className="text-[11px] sm:text-xs font-mono text-white/50 tracking-wider sm:tracking-widest uppercase">
-             // BUILD • LEARN • SHIP • REPEAT &bull; 2026
+             // BUILD â€¢ LEARN â€¢ SHIP â€¢ REPEAT &bull; 2026
             </p>
           </div>
 
@@ -33,7 +32,7 @@ const Footer = () => {
           <div className="flex items-center gap-4 sm:gap-5">
             {/* GitHub Icon */}
             <a 
-              href="https://github.com/sanjit2005"
+              href="https://github.com/AbdoHesham"
               target="_blank"
               rel="noopener noreferrer"
               title="GitHub Profile"
@@ -54,7 +53,7 @@ const Footer = () => {
 
             {/* LinkedIn Icon */}
             <a 
-              href="https://www.linkedin.com/in/sanjit-6902b22ba/"
+              href="https://www.linkedin.com/in/abdelrahman-hesham-969991163/"
               target="_blank"
               rel="noopener noreferrer"
               title="LinkedIn Profile"
@@ -73,13 +72,13 @@ const Footer = () => {
           </div>
 
           <div className="text-white/40 tracking-wider sm:tracking-widest uppercase break-words">
-            LOCATION: NEW DELHI, DELHI 110080, IN
+            LOCATION: FAYOUM, EGYPT
           </div>
         </div>
 
         {/* Bottom Copyright & Cinematic Tagline */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 sm:gap-4 pt-6 border-t border-white/5 text-[10px] sm:text-[11px] font-mono text-white/40 uppercase tracking-wider sm:tracking-widest">
-          <p>&copy; {new Date().getFullYear()} Sanjit. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Abdelrahman Hesham. All Rights Reserved.</p>
           <p className="text-[#00f0ff]/80">STREAMING WORLDWIDE &bull; BUILT WITH REACT & GSAP</p>
         </div>
 
